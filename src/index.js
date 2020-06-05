@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
   function render(data) {
-    for (toy of data) {
+    for (let toy of data) {
       document.querySelector('#toy-collection').insertAdjacentHTML(
         'beforeend',
         `  <div class="card">
